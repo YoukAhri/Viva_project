@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #ffff; /* цвет для текста */
+  --accent: #E6DBC5; /* после наведения на текст */
+
+
+  --text-h: #ffff;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  
+  --font-andika: 'Andika', sans-serif;
+}
+
+body, html, #root {
+  background: #05050A;
+}
+
+body {
+  font-family: 'Andika', sans-serif;
+}
+
