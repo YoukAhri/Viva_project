@@ -29,8 +29,8 @@ function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 py-4">
-        <div className="flex justify-center items-center">
-          <nav className="font-[var(--font-andika)] flex gap-8 ">
+        <div className="flex justify-center items-center" >
+          <nav className="flex gap-8 font-manrope font-light">
             <NavLink href="#">Главная</NavLink>
             <NavLink href="#">Мастера</NavLink>
             <NavLink href="#">Услуги и цены</NavLink>

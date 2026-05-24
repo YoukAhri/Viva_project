@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,13 +16,13 @@
   --accent-bg: rgba(170, 59, 255, 0.1);
   
   --font-andika: 'Andika', sans-serif;
+  --font-manrope: 'Manrope', sans-serif;
 }
 
 body, html, #root {
-  background: #05050A;
+  background: #2f2f2f;
 }
 
 body {
-  font-family: 'Andika', sans-serif;
 }
 

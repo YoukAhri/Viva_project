@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
-import heroImage from '../assets/IMG_66591.png'  // Положите картинку в src/assets/
+import heroImage from '../assets/IMG_66591.png'
 
 function Page_main() {
   const { scrollY } = useScroll()
@@ -8,7 +8,7 @@ function Page_main() {
 
   return (
     <div>
-      <div className="relative h-screen w-full overflow-hidden"> {/* Затемнение с анимацией */}
+      <div className="relative h-screen w-full overflow-hidden"> 
         <motion.div 
           className="absolute inset-0"
           style={{ scale: scale }}
@@ -24,20 +24,13 @@ function Page_main() {
           className="absolute inset-0 bg-black"
           style={{ opacity: opacity }}
         /> {/* При скролле меняется непрозрачность фона в начале страницы */}
-          <div className="absolute inset-0 flex items-center justify-center top-[45vh]">
-            <p className="text-[1rem] text-center max-w-[30rem] text-[var(--text)] font-[var(--font-andika)]">
+          <div className="absolute inset-0 flex items-center justify-center top-[60vh]">
+            <p className="text-[1.5rem] text-center max-w-[35rem] text-[var(--text)] font-manrope font-light">
               VIVA — это место, где рождается ваша красота. <br />
               Мы создаем образы, которые подчеркивают индивидуальность и дарят уверенность. <br />
               Позвольте себе сиять каждый день вместе с VIVA.
             </p>
           </div>
-      </div>
-
-      <div className="bg-[rgba(60,60,60,1)] py-20">
-        <div className="container mx-auto px-4">
-
-
-        </div>
       </div>
     </div>
   )

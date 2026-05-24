@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import Page_main from './components/page_main'
+import About_us from './components/about_us'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -17,6 +18,8 @@ function App() {
       <div style={{ opacity: loading ? 0 : 1, transition: 'opacity 0.5s' }}>
         <Header />
         <Page_main />
+        <About_us />
+        <ff/>
       </div>
 
       {/* Загрузчик с анимацией */}
@@ -43,7 +46,7 @@ function App() {
               {/* Золотистое свечение */}
               <motion.div
                 className="absolute inset-0 rounded-full blur-xl"
-                style={{ background: '#4FA115' }}
+                style={{ background: '#ffbf00' }}
                 animate={{ opacity: [0.3, 0.7, 0.3], scale: [1, 1.6, 1] }}
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
               />
@@ -52,7 +55,7 @@ function App() {
               <motion.div
                 className="w-20 h-20 rounded-full border-4"
                 style={{ 
-                  borderColor: '#4FA115',
+                  borderColor: '#ffbf00',
                   boxShadow: '0 0 20px rgba(255, 215, 0, 0.5)',
                   background: 'rgba(255, 215, 0, 0.02)'
                 }}
@@ -67,7 +70,7 @@ function App() {
                 <motion.div
                   key={i}
                   className="w-1.5 h-1.5 rounded-full"
-                  style={{ background: '#4FA115', boxShadow: '0 0 6px rgba(255, 215, 0, 0.6)' }}
+                  style={{ background: '#ffbf00', boxShadow: '0 0 6px rgba(255, 215, 0, 0.6)' }}
                   animate={{ opacity: [0.2, 1, 0.2], scale: [1, 1.3, 1] }}
                   transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.25 }}
                 />
