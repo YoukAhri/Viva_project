@@ -7,6 +7,7 @@
 
 :root {
   --text: #ffff; /* цвет для текста */
+  --text_b: #2b2b2b
   --accent: #E6DBC5; /* после наведения на текст */
 
 
@@ -20,9 +21,5 @@
 }
 
 body, html, #root {
-  background: #2f2f2f;
+  background: #fffafa;
 }
-
-body {
-}
-

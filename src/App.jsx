@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
-import Page_main from './components/page_main'
+import Page_main from './pages/page_main'
 import About_us from './components/about_us'
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
         <Header />
         <Page_main />
         <About_us />
-        <ff/>
       </div>
 
       {/* Загрузчик с анимацией */}
