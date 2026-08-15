@@ -1,4 +1,4 @@
-import aboutusImage from '../images/IMG-3343.png'
+import aboutusImage from '/masters_photo/IMG-3343.png'
 
 function About_us() {
   

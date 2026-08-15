@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import Header from './components/Header'
+import Header from './components/header'
 import Page_main from './pages/page_main'
 import About_us from './components/about_us'
 
