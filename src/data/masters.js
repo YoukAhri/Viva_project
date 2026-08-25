@@ -1,10 +1,6 @@
-import master1 from "../images/masters_photo/master1.webp";
-import master2 from "../images/masters_photo/master1.webp";
-
-
 export const masters = [
   {
-    image: master1,
+    image: "/masters_photo/master1.WEBP",
     name: "Анна Иванова",
     position: "Стилист-визажист",
     experience: "8 лет",
@@ -15,7 +11,7 @@ export const masters = [
   },
 
   {
-    image: master2,
+    image: "/masters_photo/master1.WEBP",
     name: "Мария Петрова",
     position: "Мастер ногтевого сервиса",
     experience: "6 лет",
